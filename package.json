@@ -1,0 +1,19 @@
+{
+  "name": "cssmemeslider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamkolovich95/cssMemeSlider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamkolovich95/cssMemeSlider/issues"
+  },
+  "homepage": "https://github.com/shamkolovich95/cssMemeSlider#readme"
+}
