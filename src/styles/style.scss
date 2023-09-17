@@ -1,1 +1,106 @@
 @import '@normalize/modern-normalize.css';
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #4d4545;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.slider__image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.text {
+    color: white;
+    margin: 0;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+
+    button {
+        width: 1.2em;
+        height: 1.2em;
+        border-radius: 50%;
+        background-color: #5a80a1;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: white;
+            border: none;
+        }
+    }
+
+    .active {
+        border: 3px solid #5a80a1;
+        background-color: transparent;
+    }
+}
+
+// @keyframes right {
+//     from {
+//         transform: translateX(0);
+//     }
+
+//     to {
+//         transform: translateX(100%);
+//     }
+// }
+
+// @keyframes left {
+//     from {
+//         transform: translateX(0);
+//     }
+
+//     to {
+//         transform: translateX(-100%);
+//     }
+// }
+
+// .move-left {
+//     animation: left 0.4s linear;
+// }
+
+// .move-right {
+//     animation: right 0.4s linear;
+// }

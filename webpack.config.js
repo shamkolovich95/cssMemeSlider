@@ -90,7 +90,7 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
-                test: /\.(ttf|woff|woff2|png|jpe?g|gif|svg)$/i,
+                test: /\.(ttf|woff|woff2|png|jpe?g|gif|svg|avif|webp)$/i,
                 type: 'asset/resource',
             },
         ],
